@@ -73,7 +73,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 collected_static/
-static/
+#static/
 sent_emails/
 
 # Flask stuff:
