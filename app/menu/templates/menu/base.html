@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{ title }}</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'menu/styles.css' %}">
+</head>
+<body>
+    {% block menu %}
+
+    {% endblock menu %}
+</body>
+</html>
